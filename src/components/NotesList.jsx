@@ -6,7 +6,7 @@ export default function NotesList() {
 
   return (
     <div className="p-10 w-full">
-      <p className="text-xl text-slate-200 mb-6"> Bienvenue sur Notes101</p>
+      <p className="text-xl text-slate-200 mb-6"> Bienvenue sur Notes101 <br></br><span className=" text-xs text-slate-600">&copy; 2024 Axel Denouly | All Right Reserved</span></p>
 
       <ul className="grid lg:grid-cols-2 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
         {notes.list &&
